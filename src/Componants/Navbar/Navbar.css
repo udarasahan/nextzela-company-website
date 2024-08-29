@@ -1,0 +1,163 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(59, 8, 8, 0.2);
+    z-index: 10; /* Increased the z-index */
+    position: relative; /* Ensures z-index works as expected */
+}
+
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    transition: 0.8s;
+    cursor: pointer;
+    color: rgb(247, 247, 248);
+}
+
+.logo img {
+    max-width: 200px;
+    cursor: pointer;
+    transition: 0.8s;
+    border-radius: 35px;
+}
+
+.nav-connect {
+    font-size: 20px;
+    color: #b9defa;
+    padding: 5px 20px;
+    border: 3px solid #4267B2;
+    border-radius: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgba(73, 161, 196, 0.084);
+}
+
+.nav-menu li:hover {
+    font-weight: 500;
+    transform: scale(1.02);
+    color: rgb(141, 247, 247);
+}
+
+.navbar img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(67, 242, 255, 0.6);
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+
+.nav-mob-open {
+    display: none;
+}
+.nav-mob-close {
+    display: none;
+}
+
+@media (max-width: 1040px) {
+    .nav-menu {
+        font-size: 18px;
+    }
+    .nav-connect {
+        font-size: 18px;
+    }
+    .navbar img {
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav-menu {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar img {
+        max-width: 150px;
+    }
+    .nav-menu {
+        font-size: 15px;
+    }
+    .nav-connect {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav-menu {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 770px) {
+    .nav-menu {
+        display: none;
+    }
+    .nav-connect {
+        display: none;
+    }
+    .nav-mob-open {
+        display: block;
+        position: fixed;
+        right: 10px;
+        width: 30px;
+    }
+    .navbar {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar img {
+        max-width: 120px;
+        padding: 5px;
+    }
+    .nav-connect {
+        border: 1px solid #4267B2;
+        font-size: 12px;
+        margin: 5px 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        padding: 5px ;
+    }
+    .nav-connect {
+        display: none;
+    }
+    .nav-mob-close {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
+    }
+    .nav-menu {
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #4267b2;
+        color: black;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+    .nav-menu li {
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
