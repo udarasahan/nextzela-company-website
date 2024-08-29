@@ -24,6 +24,9 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <div className="middle">
+            <img src={assets.image1} alt="" />
+        </div>
         <div className="growth">
             <p className="topic">Experts growth</p>
             <div className="growth-upper">    
