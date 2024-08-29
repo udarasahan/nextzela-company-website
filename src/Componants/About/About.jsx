@@ -14,7 +14,7 @@ const About = () => {
                 <h1>Who are we.</h1>
                 <div className="about-right-content">
                 <p>At Nextzela, we transform your boldest ideas into dynamic digital experiences through 
-                    high-fidelity prototypes, mobile and web development, and immersive game creation. 
+                    high fidelity prototypes, mobile and web development, and immersive game creation. 
                     Our expertise ensures that your concepts come to life in a way that captivates and 
                     engages your audience.</p>
                 <p>We are more than just a development team; we are your strategic partner. By using an 
@@ -29,6 +29,7 @@ const About = () => {
             <div className="growth-upper">    
                 <h1>Our Company Growth</h1>
                 <p>Through relentless dedication and innovation, our company has</p>
+                <p>experienced exponential growth in a short span of time.</p>
             </div>
             <div className='growth-lower'>
                 {growth_data.map((data,index)=> {

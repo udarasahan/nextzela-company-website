@@ -3,7 +3,7 @@ import './Hero.css';
 
 export const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero' id='hero'>
         <video autoPlay muted loop id='background-video'>
             <source className='background-video' src={assets.backgroundVideo} type='video/mp4' />
         </video>
