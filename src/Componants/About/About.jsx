@@ -13,14 +13,14 @@ const About = () => {
             <div className="about-right">
                 <h1>Who are we.</h1>
                 <div className="about-right-content">
-                <p>At Nextzela, we transform your boldest ideas into dynamic digital experiences through 
-                    high fidelity prototypes, mobile and web development, and immersive game creation. 
-                    Our expertise ensures that your concepts come to life in a way that captivates and 
-                    engages your audience.</p>
-                <p>We are more than just a development team; we are your strategic partner. By using an 
-                    agile, feedback-driven approach, we actively collaborate with you to continuously 
-                    refine your product, ensuring it aligns perfectly with your customers needs. We’re 
-                    committed to delivering innovative solutions that empower your business to thrive.</p>
+                    <p>At Nextzela, we transform your boldest ideas into dynamic digital experiences through 
+                        high fidelity prototypes, mobile and web development, and immersive game creation. 
+                        Our expertise ensures that your concepts come to life in a way that captivates and 
+                        engages your audience.</p>
+                    <p>We are more than just a development team; we are your strategic partner. By using an 
+                        agile, feedback-driven approach, we actively collaborate with you to continuously 
+                        refine your product, ensuring it aligns perfectly with your customers needs. We’re 
+                        committed to delivering innovative solutions that empower your business to thrive.</p>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@ const About = () => {
             <img src={assets.image1} alt="" />
         </div>
         <div className="growth">
-            <p className="topic">Experts growth</p>
+            <p className="topic">EXPERTS GROWTH</p>
             <div className="growth-upper">    
                 <h1>Our Company Growth</h1>
                 <p>Through relentless dedication and innovation, our company has</p>
