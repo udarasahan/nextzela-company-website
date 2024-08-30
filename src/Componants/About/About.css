@@ -28,7 +28,7 @@
 .about-right p {
     color: black;
     font-size: 22px;
-    width: 90%;
+    width: 80%;
 }
 
 .about-left {
@@ -303,5 +303,79 @@
     .growth-lower p {
         font-size: 18px;
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 726px) {
+    .topic {
+        font-size: 12px;
+    }
+    .about-left img {
+        max-width: 220px;
+    }
+    .about-right h1 {
+        font-size: 30px;
+    }
+    .about-right p {
+        font-size: 14px;
+    }
+    .about-content {
+        gap: 20px;
+    }
+    .middle img {
+        top: 0;
+    }
+    .growth-upper h1 {
+        font-size: 30px;
+    }
+    .growth-upper p {
+        font-size: 14px;
+    }
+    .growth-lower img {
+        max-width: 35px;
+        margin-bottom: 5px;
+    }
+    .growth-lower h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .growth-lower p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .growth-content {
+        padding: 8px 4px;
+    }
+}
+
+@media (max-width: 660px) {
+    .about {
+        padding: 60px 40px;
+    }
+    .middle img {
+        top: 15px;
+    }
+}
+
+@media (max-width: 604px) {
+    .about {
+        padding: 30px 30px;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about-right {
+        margin-top: -30px;
+    }
+    .middle img {
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 530px) {
+    .growth-lower {
+        grid-template-columns: 1fr 1fr;
     }
 }
