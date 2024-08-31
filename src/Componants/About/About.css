@@ -378,4 +378,7 @@
     .growth-lower {
         grid-template-columns: 1fr 1fr;
     }
+    .growth-content {
+        padding: 10px 20px;
+    }
 }
